@@ -10,9 +10,10 @@ fazendaA = []
 fazendaB = []
 
 for i in range(5):
-    fazendaA.append(int(input(f"Fazenda A posição: ")))
+    fazendaA.append(int(input("Fazenda A posição: ")))
 for i in range(5):
-    fazendaB.append(int(input(f"Fazenda B posição: ")))
+    fazendaB.append(int(input("Fazenda B posição: ")))
+    
 resultado = soma_fazendas(fazendaA, fazendaB)
 
 
