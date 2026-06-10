@@ -4,7 +4,7 @@ def calcular_valor(kg, preco):
     valor = []
 
   
-    for i in range(len(kg)):
+    for i in range(len(kg))::
         valor.append(kg[i] * preco[i])
 
     return valor
